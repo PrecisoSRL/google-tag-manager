@@ -3,3 +3,5 @@ documentation: "https://cdn.preciso.net/Preciso_UserManual/preciso-and-google-ta
 versions:
   - sha: c4aa010ea9e152539a111987dc4c17f2318f204e
     changeNotes: Initial Version
+  - sha: dceebaa89f377cef7006a61899eba571827e7f2f
+    changeNotes: Add files via upload
