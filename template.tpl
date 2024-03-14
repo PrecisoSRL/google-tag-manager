@@ -1,12 +1,4 @@
-﻿___TERMS_OF_SERVICE___
-
-By creating or modifying this file you agree to Google Tag Manager's Community
-Template Gallery Developer Terms of Service available at
-https://developers.google.com/tag-manager/gallery-tos (or such other URL as
-Google may provide), as modified from time to time.
-
-
-___INFO___
+﻿___INFO___
 
 {
   "type": "TAG",
@@ -397,40 +389,37 @@ var accountId = '0001';
     accountId = data.tokenId;
   }
 
-var datapartner = "data_0001" ;
+var datapartner = "rtgsettings";
 
 // Initialize  array
-let precisodataarray =  datapartner || [];
+let precisodataarray =  [];
 
 if(data.productId){
-     precisodataarray.push("ProductId", data.productId);}
-
+        precisodataarray.ProductId= data.productId;}
 if(data.productprice){
-       precisodataarray.push("Amount", data.productPrice);}
-
+        precisodataarray.Amount= data.productPrice;}
 if(data.productCategoryList){
-       precisodataarray.push("ProductCategoryList", data.productCategoryList);}
-
+        precisodataarray.ProductCategoryList= data.productCategoryList;}
 if(data.orderId){
-       precisodataarray.push("OrderId", data.orderId);}
-
+       precisodataarray.OrderId= data.orderId;}
 if(data.amount){
-       precisodataarray.push("Amount", data.amount);}
-
+       precisodataarray.Amount=data.amount;}
 if(data.currency){
-       precisodataarray.push("Currency", data.currency);}
-
+       precisodataarray.Currency= data.currency;}
 if(data.gdpr){
-       precisodataarray.push("gdpr", data.gdpr);}
-
+       precisodataarray.gdpr = data.gdpr;}
 if(data.gdpr_consent){
-       precisodataarray.push("gdpr_consent", data.gdpr_consent);}
-
+       precisodataarray.gdpr_consent= data.gdpr_consent;}
 if(data.gdpr_pd){
-       precisodataarray.push("gdpr_pd", data.gdpr_pd);}
-
+       precisodataarray.gdpr_pd= data.gdpr_pd;}
 if(data.us_privacy){
-       precisodataarray.push("us_privacy", data.us_privacy);}
+       precisodataarray.us_privacy= data.us_privacy;}
+
+if(data.pageType){
+       precisodataarray.PageType= data.pageType;}
+else{
+       precisodataarray.PageType =  "Generic";}
+
 
 
   
@@ -517,7 +506,7 @@ ___WEB_PERMISSIONS___
                 "mapValue": [
                   {
                     "type": 1,
-                    "string": "data_0001"
+                    "string": "rtgsettings"
                   },
                   {
                     "type": 8,
