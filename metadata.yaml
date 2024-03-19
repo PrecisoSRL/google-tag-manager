@@ -1,5 +1,5 @@
 homepage: "https://preciso.net"
 documentation: "https://cdn.preciso.net/Preciso_UserManual/preciso-and-google-tag-manager.pdf"
 versions:
-  - sha: b650cce0e2313d097d90c425c3e5690b325605ca
-    changeNotes: Version Live
+  - sha: cd75cf5f037bda2a4a9ae47dbf36931f26735538
+    changeNotes: March2024

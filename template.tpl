@@ -76,7 +76,7 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "value": "Checkout",
-        "displayValue": "Thankyou Page"
+        "displayValue": "Thank You Page"
       },
       {
         "value": "Generic",
@@ -160,7 +160,7 @@ ___TEMPLATE_PARAMETERS___
         "simpleValueType": true,
         "enablingConditions": [
           {
-            "paramName": "pagetype",
+            "paramName": "pageType",
             "paramValue": "Checkout",
             "type": "EQUALS"
           },
@@ -195,7 +195,7 @@ ___TEMPLATE_PARAMETERS___
         "type": "EQUALS"
       },
       {
-        "paramName": "pagetype",
+        "paramName": "pageType",
         "paramValue": "Checkout",
         "type": "EQUALS"
       },
